@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css?family=Crimson+Text');
+
+/* clearfix */
+
+.container:before,
+.container:after {
+  content: "";
+  display: table;
+}
+
+.container:after {
+  clear: both;
+}
+
+/* For IE 6/7 (trigger hasLayout) */
+.container {
+  zoom: 1;
+}
+
+#header {
+    display: table;
+    width: 100%;
+}
+
+#name {
+    width: 75%;
+    float: left;
+    position: relative;
+    display: table-cell;
+}
+ 
+
+#contact {
+    width: 25%;
+    float: right;
+    position: relative;
+    margin-top: 10px;
+    display: table-cell;
+}
+
+body {
+  font-family: 'Crimson Text', serif;
+  color: #1D1313;
+  font-weight: 300;
+  margin: 40px 40px 40px 40px;
+  padding: 10px 10px 10px 10px;
+}
+
+.container {
+  background: #fff;
+  border: solid #d22042;
+  border-width: 2px 0 0 0;
+  text-align: left;
+}
+
+.resume {
+  position: relative;
+  padding: 10px 20px;
+}
+
+blockquote a {
+  color: #1D1313;
+  -webkit-transition: color 0.3s linear;
+  -moz-transition: color 0.3s linear;
+  -ms-transition: color 0.3s linear;
+  -o-transition: color 0.3s linear;
+  transition: color 0.3s linear;
+}
+
+blockquote a:hover {
+  color: #d22042;
+}
+
+a {
+  color: #d22042;
+}
+
+a[href$='.pdf'] {
+  display: inline-block;
+  background: #1D1313;
+  color: white;
+  padding: 6px 12px;
+  margin-bottom: 6px;
+  text-decoration: none;
+}
+
+blockquote {
+  margin: 0;
+  padding: 0;
+  line-height: 1.4em;
+  text-align: right;
+}
+
+hr:nth-of-type(1) {
+  margin-top: 32px;
+}
+
+hr {
+  display: block;
+  position: relative;
+  padding: 0;
+  margin: 18px auto;
+  width: 100%;
+  clear: both;
+  border: none;
+  border-top: 1px solid #CCC;
+  font-size: 1px;
+  line-height: 0;
+  overflow: visible;
+  page-break-after: avoid;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-size: 36px;
+  letter-spacing: -1px;
+  font-weight: normal;
+}
+
+h2 {
+  padding: 0;
+  font-size: 28px;
+  letter-spacing: -1px;
+  font-weight: normal;
+}
+
+h3 {
+  margin: 0;
+  padding: 0 0 .5em;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+p {
+  margin-left : 25px;
+  padding: 0;
+  display: block;
+  font-size: 104%;
+  line-height: 24px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+ul li {
+  margin: 0;
+  padding: 0;
+}
+
+ul li p {
+  margin: 1em 0.5em;
+ /* line-height: 120%; */
+}
+
+ol {
+  margin: 0;
+  padding: 0 0 .75em;
+  width: 84%;
+  display: inline-block;
+}
+
+ol li {
+  margin: 0 0 0 1em;
+  padding: 0;
+  width: 100%;
+  float: left;
+  list-style: none;
+  line-height: 24px;
+}
+
+strong {
+    font-weight: bolder;
+}
+
+#footer {
+  display: none;
+}
+
+#footer + p {
+  width: 100%;
+  font-size: 11px;
+  text-align: center;
+}
+
